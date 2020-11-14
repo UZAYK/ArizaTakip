@@ -1,0 +1,13 @@
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.Business.deps.json
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.Business.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.Business.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.csprojAssemblyReference.cache
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.AssemblyInfoInputs.cache
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.AssemblyInfo.cs
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.csproj.CopyComplete
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Business\obj\Debug\netcoreapp3.1\ArizaTakip.Business.pdb

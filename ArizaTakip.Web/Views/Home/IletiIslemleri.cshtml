@@ -1,0 +1,42 @@
+﻿@model ArizaTakip.Entities.Concrete.Iletisim
+
+@{
+    ViewData["Title"] = "IletiIslemleri";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+
+
+<br />
+<h2><label class="font-weight-bold text-xl-right font-weight-bold glyphicon glyphicon-send pb-4">&nbsp;MESAJ BIRAK</label></h2>
+<hr />
+
+<form class="=form-group" method="post">
+
+    @*<b>Cihaz</b>
+        <div class="= mt-3 p-0">
+            @Html.TextBoxFor(x => x.KullaniciAd, new { @class = "form-control" })
+        </div>*@
+    <br />
+    <div class="= mt-3 p-0 font-weight-bold">
+        <b>Kullanıcı Adı</b>
+        @Html.TextBoxFor(x => x.KullaniciAd, new { placeholder = "Ali Demir", @class = "form-control" })
+    </div>
+    <div class="= mt-3 p-0">
+        <b>Email</b>
+        @Html.TextBoxFor(x => x.KullaniciMail, new { placeholder = "birisi@example.com", @class = "form-control" })
+    </div>
+
+    <br />
+    <div class="= mt-3 p-0">
+        <b>Mesaj</b>
+        @Html.TextBoxFor(x => x.Ileti, new { @style = "Height: 150px;", @class = "form-control" })
+    </div>
+    <br />
+
+    <button class="btn btn-dark"> YOLLA </button>
+    <a href="/Home/IletimIslemleri/" class="btn btn-dark"> KONUSMA GECMISI </a>
+
+
+</form>
+

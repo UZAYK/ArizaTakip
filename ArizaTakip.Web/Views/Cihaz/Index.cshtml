@@ -1,0 +1,46 @@
+﻿@model List<Cihaz>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+<br />
+<h2><label class="font-weight-bold text-xl-right  glyphicon glyphicon-wrench pb-4">&nbsp;CİHAZLAR</label></h2>
+<hr />
+
+<table class="table table-bordered">
+    <tr>
+    
+        <th>Cihaz Adı</th>
+        <th>Cihazın Tipi</th>
+        <th>Kayıt Tarihi</th>
+        <th class="text-center">Sil</th>
+        <th class="text-center">Güncelle</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+
+          
+            <td> @x.CihazAd </td>
+            <td> @x.CihazTip </td>
+            <td> @x.CihazKayitTarihi.ToString("dd/MM/yyyy") </td>
+            <td class="text-center">
+                <a href="/Cihaz/YeniSil/@x.Id" class=" btn btn-danger glyphicon glyphicon-trash">
+
+                </a>
+            </td>
+            <td class="text-center">
+                <a href="/Cihaz/CihazGetir/@x.Id"
+                   class=" btn btn-success glyphicon glyphicon-refresh"></a>
+            </td>
+
+
+
+        </tr>
+    }
+</table>
+<a asp-action="YeniCihaz" asp-controller="Cihaz"
+   class=" btn btn-dark">Yeni Cihaz Kaydet</a>
+
+

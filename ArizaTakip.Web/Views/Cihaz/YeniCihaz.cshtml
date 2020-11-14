@@ -1,0 +1,30 @@
+﻿@model ArizaTakip.Entites.Concrete.Cihaz
+
+@{
+    ViewData["Title"] = "YeniCihaz";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+<br />
+<h2><label class="font-weight-bold text-xl-right  glyphicon glyphicon-plus-sign pb-4">&nbsp;YENİ CİHAZ EKLEME</label></h2>
+<hr />
+
+
+<form class="=form-group" method="post">
+
+    <br />
+    <b>Cihazın Adı</b>
+    @Html.TextBoxFor(x => x.CihazAd, new { @class = "form-control" })
+    <br />
+    <b>Cihazın Tipi</b>
+    @Html.TextBoxFor(x => x.CihazTip, new { @class = "form-control" })
+    <br />
+    <b>Cihazın Oluşturulduğu Tarih</b>
+    <div class="  mt-3 p-0 ">
+        @Html.EditorFor(model => model.CihazKayitTarihi, new { @type = "date" })
+    </div>
+    <br />
+    <button class="btn btn-dark"> Cihazı Ekle </button>
+
+
+</form>

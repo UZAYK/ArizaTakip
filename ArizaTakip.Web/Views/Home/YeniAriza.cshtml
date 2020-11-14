@@ -1,0 +1,47 @@
+﻿@model ArizaTakip.Entites.Concrete.Ariza
+
+@{
+    ViewData["Title"] = "YeniAriza";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+<br />
+<h2><label class="font-weight-bold text-xl-right glyphicon glyphicon-plus-sign  pb-4">&nbsp;YENİ ARIZA EKLEME</label></h2>
+<hr />
+
+<form class="=form-group" method="post">
+
+    <b>Cihaz</b>
+    <div class="= mt-3 p-0">
+        @Html.DropDownListFor(x => x.CihazId, TempData["cihazDropDown"] as List<SelectListItem>, "SEÇİNİZ")
+    </div>
+    <br />
+    <b>Arıza Kodu</b>
+    @*@Html.TextBoxFor(x => x.ArizaTanım, new { @class = "form-control" })*@
+    <b>Arıza Tanımı</b>
+    @Html.TextBoxFor(x => x.ArizaTanim, new { @class = "form-control" })
+    <br />
+    <b>Arıza Açıklama</b>
+    @Html.TextBoxFor(x => x.ArizaAciklama, new { @class = "form-control" })
+    <br />
+    <b>Arızanın Durumu</b>
+    <div class="= mt-3 p-0">
+        @Html.DropDownListFor(x => x.Durum,
+
+                    new List<SelectListItem>{
+                    new SelectListItem { Text = "BİLİNMİYOR", Value = "False" },
+                    new SelectListItem { Text = "BEKLEMEDE", Value = "False" },
+                    new SelectListItem { Text = "ÇALIŞIYOR", Value = "True" },
+                    new SelectListItem { Text = "ARIZALI", Value = "False" },
+
+                     })
+    </div>
+    <br />
+    <b>Arızanın Oluşturulduğu Tarih</b>
+    <div class="mt-3 p-0">
+        @Html.EditorFor(model => model.ArizaOlusturulmaTarih, new { @type = "date" })
+    </div>
+    <br />
+    <button class="btn btn-dark"> Arıza Ekle </button>
+
+
+</form>

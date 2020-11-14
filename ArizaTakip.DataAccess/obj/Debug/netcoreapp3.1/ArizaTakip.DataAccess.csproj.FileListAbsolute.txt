@@ -1,0 +1,14 @@
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.csprojAssemblyReference.cache
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.AssemblyInfoInputs.cache
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.AssemblyInfo.cs
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.deps.json
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.runtimeconfig.json
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.runtimeconfig.dev.json
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.DataAccess.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.csproj.CopyComplete
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.DataAccess\obj\Debug\netcoreapp3.1\ArizaTakip.DataAccess.genruntimeconfig.cache

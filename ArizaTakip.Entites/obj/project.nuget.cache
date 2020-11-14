@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "dgSpecHash": "jlzBCcpbESgo3LQfnkqym8bs/nyvCQ7X1vCnh1tDPNjJO3vZzsAi4kcSPH3AuCYP2LW1kLMtRrkEZhrxbOV2OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uzayk\\source\\repos\\ArizaTakip\\ArizaTakip.Entites\\ArizaTakip.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uzayk\\.nuget\\packages\\gw2.net\\0.7.0.1\\gw2.net.0.7.0.1.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\gw2.net.rsharp\\0.10.12\\gw2.net.rsharp.0.10.12.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.9\\microsoft.aspnetcore.connections.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.9\\microsoft.aspnetcore.http.connections.client.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.9\\microsoft.aspnetcore.http.connections.common.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.9\\microsoft.aspnetcore.http.features.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.9\\microsoft.aspnetcore.signalr.client.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.9\\microsoft.aspnetcore.signalr.client.core.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.9\\microsoft.aspnetcore.signalr.common.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.9\\microsoft.aspnetcore.signalr.protocols.json.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.9\\microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.logging\\3.1.9\\microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\restsharp\\104.4.0\\restsharp.104.4.0.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\system.io.pipelines\\4.7.3\\system.io.pipelines.4.7.3.nupkg.sha512",
+    "C:\\Users\\uzayk\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "GW2.NET.RSharp 0.10.12 does not provide an inclusive lower bound for dependency GW2.NET (< 1.0.0). An approximate best match of GW2.NET 0.7.0.1 was resolved.",
+      "libraryId": "GW2.NET",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GW2.NET 0.7.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "GW2.NET",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GW2.NET.RSharp 0.10.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "GW2.NET.RSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp 104.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

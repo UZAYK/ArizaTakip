@@ -1,0 +1,31 @@
+﻿@model ArizaTakip.Entites.Concrete.Cihaz
+@{
+    ViewData["Title"] = "ArizaGetir";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+<br />
+<h2><label class="font-weight-bold text-xl-right  glyphicon glyphicon-refresh pb-4">&nbsp;CİHAZ GÜNCELLEME</label></h2>
+<hr />
+
+<form method="post" asp-action="CihazGuncelle" asp-controller="Cihaz">
+
+    <br />
+    <b>Cihaz ID</b>
+    @Html.TextBoxFor(x => x.Id, new { disabled = "disabled", @class = "form-control" })
+    <br />
+    <b>Cihazın Adı</b>
+    @Html.TextBoxFor(x => x.CihazAd, new { @class = "form-control" })
+    <br />
+    <b>Cihaz Açıklama</b>
+    @Html.TextBoxFor(x => x.CihazTip, new { @class = "form-control" })
+    <br />
+    @*<b>Cihazın Durumu</b>
+        @Html.CheckBoxFor(x => x.Durum, new { @class = "form-control" })*@
+    <b>Cihazın Oluşturulduğu Tarih</b>
+    <div class="  mt-3 p-0">
+        @Html.EditorFor(model => model.CihazKayitTarihi, new { @type = "date" })
+    </div>
+    <br />
+    <button class="btn btn-dark">Güncelle</button>
+</form>

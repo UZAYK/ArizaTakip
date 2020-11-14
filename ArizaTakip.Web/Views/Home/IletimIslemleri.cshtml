@@ -1,0 +1,37 @@
+﻿@model List<ArizaTakip.Entities.Concrete.Iletisim>
+@{
+    ViewData["Title"] = "IletimIslemleri";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+
+<br />
+<h2><label class="font-weight-bold text-xl-right  glyphicon glyphicon-wrench pb-4">&nbsp;İLETİ GEÇMİŞİ</label></h2>
+<hr />
+<table class="table table-bordered">
+    <tr>
+        <th>KULLANICI ADI</th>
+        <th>KULLANICI MAİL</th>
+        <th>İLETİ</th>
+        <th>OLUŞTURULMA TARİHİ</th>
+
+
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td> @x.KullaniciAd </td>
+            <td> @x.KullaniciMail </td>
+            <td> @x.Ileti </td>
+            <td> @x.Tarih.ToString("dd/MM/yyyy") </td>
+
+
+        </tr>
+    }
+
+</table>
+
+<a asp-action="IletiIslemleri" asp-controller="home"
+   class=" btn btn-dark">Yeni İleti Oluştur</a>
+

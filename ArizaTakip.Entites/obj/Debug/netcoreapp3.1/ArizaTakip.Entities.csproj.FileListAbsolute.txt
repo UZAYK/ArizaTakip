@@ -1,0 +1,8 @@
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.deps.json
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\bin\Debug\netcoreapp3.1\ArizaTakip.Entities.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\obj\Debug\netcoreapp3.1\ArizaTakip.Entities.AssemblyInfoInputs.cache
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\obj\Debug\netcoreapp3.1\ArizaTakip.Entities.AssemblyInfo.cs
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\obj\Debug\netcoreapp3.1\ArizaTakip.Entities.dll
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\obj\Debug\netcoreapp3.1\ArizaTakip.Entities.pdb
+C:\Users\uzayk\source\repos\ArizaTakip\ArizaTakip.Entites\obj\Debug\netcoreapp3.1\ArizaTakip.Entities.csprojAssemblyReference.cache
